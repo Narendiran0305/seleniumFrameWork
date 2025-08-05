@@ -46,8 +46,8 @@ public class TestCase6 {
 	}
 
 	@Test
-	public void windowHandleTest() throws MalformedURLException, IOException {
-		System.out.print("TestCase2"); 
+	public void windowHandleTest() {
+		System.out.println("TestCase6");
 	}
 
 }

@@ -47,7 +47,7 @@ public class TestCase6 {
 
 	@Test
 	public void windowHandleTest() {
-		System.out.println("TestCase6");
+//		System.out.println("TestCase6");
 	}
 
 }

@@ -26,7 +26,7 @@ import org.testng.annotations.*;
 @Listeners(ListenerClass.class)
 public class TestCase5 {
 
-	WebDriver driver;
+	WebDriver driver1;
 
 	@BeforeTest
 	public void launchbrower() {

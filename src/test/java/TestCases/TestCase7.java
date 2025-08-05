@@ -48,6 +48,7 @@ public class TestCase7 {
 	@Test
 	public void windowHandleTest(){
 		System.out.println(driver.getTitle());
+		
 	}
 
 }

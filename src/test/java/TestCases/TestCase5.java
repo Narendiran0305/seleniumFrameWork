@@ -52,7 +52,7 @@ public class TestCase5 {
 		{
 			String url = link.getAttribute("href");
 			
-			if(!url.isEmpty())
+			if(url!=null && !url.isEmpty())
 			{
 					HttpURLConnection connection = (HttpURLConnection)(new URL(url).openConnection());
 					connection.connect();

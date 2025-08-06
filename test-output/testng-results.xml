@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-06T05:40:17 IST" name="Default suite" finished-at="2025-08-06T05:40:24 IST" duration-ms="6955">
+  <suite started-at="2025-08-06T09:00:20 IST" name="Default suite" finished-at="2025-08-06T09:00:26 IST" duration-ms="5957">
     <groups>
     </groups>
-    <test started-at="2025-08-06T05:40:17 IST" name="Default test" finished-at="2025-08-06T05:40:24 IST" duration-ms="6955">
-      <class name="TestCases.TestCase5">
-        <test-method is-config="true" signature="launchbrower()[pri:0, instance:TestCases.TestCase5@22555ebf]" started-at="2025-08-06T05:40:17 IST" name="launchbrower" finished-at="2025-08-06T05:40:20 IST" duration-ms="2692" status="PASS">
+    <test started-at="2025-08-06T09:00:20 IST" name="Default test" finished-at="2025-08-06T09:00:26 IST" duration-ms="5957">
+      <class name="TestCases.TestCase6">
+        <test-method is-config="true" signature="launchbrower()[pri:0, instance:TestCases.TestCase6@22555ebf]" started-at="2025-08-06T09:00:20 IST" name="launchbrower" finished-at="2025-08-06T09:00:25 IST" duration-ms="5690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrower -->
-        <test-method signature="windowHandleTest()[pri:0, instance:TestCases.TestCase5@22555ebf]" started-at="2025-08-06T05:40:20 IST" name="windowHandleTest" finished-at="2025-08-06T05:40:24 IST" duration-ms="3935" status="PASS">
+        <test-method signature="windowHandleTest()[pri:0, instance:TestCases.TestCase6@22555ebf]" started-at="2025-08-06T09:00:25 IST" name="windowHandleTest" finished-at="2025-08-06T09:00:25 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowHandleTest -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestCases.TestCase5@22555ebf]" started-at="2025-08-06T05:40:24 IST" name="closebrowser" finished-at="2025-08-06T05:40:24 IST" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestCases.TestCase6@22555ebf]" started-at="2025-08-06T09:00:25 IST" name="closebrowser" finished-at="2025-08-06T09:00:26 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-      </class> <!-- TestCases.TestCase5 -->
+      </class> <!-- TestCases.TestCase6 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

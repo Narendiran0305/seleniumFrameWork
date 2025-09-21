@@ -16,10 +16,10 @@ public class DriverManager {
 
 	public static void setDriver(String browser) {
 		if (browser.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", CHROME_DRIVER_PATH);
+		//	System.setProperty("webdriver.chrome.driver", CHROME_DRIVER_PATH);
 			driver.set(new ChromeDriver());
 		} else if (browser.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", FIREFOX_DRIVER_PATH);
+		//	System.setProperty("webdriver.gecko.driver", FIREFOX_DRIVER_PATH);
 			driver.set(new FirefoxDriver());
 		}
 	}

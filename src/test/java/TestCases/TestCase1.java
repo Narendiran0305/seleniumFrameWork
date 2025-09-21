@@ -9,4 +9,9 @@ public class TestCase1 extends BaseClass {
 	public void googleTest() {
 		driver.get("https://google.com/");
 	}
+	
+	@Test
+	public void googleTest1() {
+		driver.get("https://google.com/");
+	}
 }

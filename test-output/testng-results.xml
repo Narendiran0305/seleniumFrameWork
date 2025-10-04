@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-04T10:43:35 IST" name="Default suite" finished-at="2025-10-04T10:43:50 IST" duration-ms="14576">
+  <suite started-at="2025-10-04T17:03:52 IST" name="Suite" finished-at="2025-10-04T17:04:09 IST" duration-ms="17535">
     <groups>
     </groups>
-    <test started-at="2025-10-04T10:43:35 IST" name="Default test" finished-at="2025-10-04T10:43:50 IST" duration-ms="14576">
+    <test started-at="2025-10-04T17:03:52 IST" name="FirefoxTest" finished-at="2025-10-04T17:04:05 IST" duration-ms="13538">
       <class name="TestCases.TestCase8">
-        <test-method is-config="true" signature="launchbrower()[pri:0, instance:TestCases.TestCase8@3c41ed1d]" started-at="2025-10-04T10:43:35 IST" name="launchbrower" finished-at="2025-10-04T10:43:41 IST" duration-ms="6496" status="PASS">
+        <test-method is-config="true" signature="launchbrower()[pri:0, instance:TestCases.TestCase8@24269709]" started-at="2025-10-04T17:03:52 IST" name="launchbrower" finished-at="2025-10-04T17:04:00 IST" duration-ms="8167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrower -->
-        <test-method signature="windowHandleTest()[pri:0, instance:TestCases.TestCase8@3c41ed1d]" started-at="2025-10-04T10:43:42 IST" name="windowHandleTest" finished-at="2025-10-04T10:43:49 IST" duration-ms="7273" status="PASS">
+        <test-method signature="windowHandleTest()[pri:0, instance:TestCases.TestCase8@24269709]" started-at="2025-10-04T17:04:00 IST" name="windowHandleTest" finished-at="2025-10-04T17:04:05 IST" duration-ms="4895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowHandleTest -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestCases.TestCase8@3c41ed1d]" started-at="2025-10-04T10:43:49 IST" name="closebrowser" finished-at="2025-10-04T10:43:50 IST" duration-ms="734" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestCases.TestCase8@24269709]" started-at="2025-10-04T17:04:05 IST" name="closebrowser" finished-at="2025-10-04T17:04:05 IST" duration-ms="332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- TestCases.TestCase8 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2025-10-04T17:03:52 IST" name="ChromeTest" finished-at="2025-10-04T17:04:09 IST" duration-ms="17535">
+      <class name="TestCases.TestCase8">
+        <test-method is-config="true" signature="launchbrower()[pri:0, instance:TestCases.TestCase8@34e9fd99]" started-at="2025-10-04T17:03:52 IST" name="launchbrower" finished-at="2025-10-04T17:04:03 IST" duration-ms="11330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrower -->
+        <test-method signature="windowHandleTest()[pri:0, instance:TestCases.TestCase8@34e9fd99]" started-at="2025-10-04T17:04:03 IST" name="windowHandleTest" finished-at="2025-10-04T17:04:07 IST" duration-ms="4347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandleTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestCases.TestCase8@34e9fd99]" started-at="2025-10-04T17:04:07 IST" name="closebrowser" finished-at="2025-10-04T17:04:09 IST" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestCases.TestCase8 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
 </testng-results>

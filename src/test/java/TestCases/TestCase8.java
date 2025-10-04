@@ -72,12 +72,6 @@ public class TestCase8 {
 		  robot.keyPress(KeyEvent.VK_ENTER);
 		  robot.keyRelease(KeyEvent.VK_ENTER);
 		  
-		  WebElement uploadedFilePath = wait.until(ExpectedConditions
-				  .visibilityOfElementLocated(By.className("uploadedFilePath")));
-				  
-		  System.out.println(uploadedFilePath);
-		  
-		  Thread.sleep(3000);
 	}
 
 }

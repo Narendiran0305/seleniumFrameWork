@@ -57,8 +57,9 @@ public class TestCase8 {
 		  WebElement fileBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("form-file-label")));
 		  JavascriptExecutor js = (JavascriptExecutor) driver;
 		  js.executeScript("arguments[0].click();", fileBtn);
- 
-		  Robot robot = new Robot();
+
+		// failing this for jenkins build
+		//  Robot robot = new Robot();
 		  robot.delay(1000);
 
 		  StringSelection ss = new StringSelection("C:\\Users\\Narendiran\\Downloads\\Student enquiry.xlsx");

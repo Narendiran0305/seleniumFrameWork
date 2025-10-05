@@ -58,8 +58,7 @@ public class TestCase8 {
 		  JavascriptExecutor js = (JavascriptExecutor) driver;
 		  js.executeScript("arguments[0].click();", fileBtn);
 
-		// failing this for jenkins build
-		//  Robot robot = new Robot();
+		  Robot robot = new Robot();
 		  robot.delay(1000);
 
 		  StringSelection ss = new StringSelection("C:\\Users\\Narendiran\\Downloads\\Student enquiry.xlsx");

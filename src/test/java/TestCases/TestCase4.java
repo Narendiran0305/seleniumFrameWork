@@ -8,10 +8,11 @@ import org.testng.annotations.*;
 import PageClasses.testCasePage4;
 
 @Listeners(ListenerClass.class)
-public class TestCase4{
+public class TestCase4 {
 
 	WebDriver driver;
 	testCasePage4 page;
+
 	@Test
 	public void googleTest() throws InterruptedException {
 		driver.get("https://google.com/");
@@ -19,7 +20,6 @@ public class TestCase4{
 		page.searchGoogle("iphone");
 		Thread.sleep(5000);
 	}
-	
 
 	@BeforeTest
 	public void launchbrower() {

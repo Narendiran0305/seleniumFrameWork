@@ -13,5 +13,5 @@ public class TestCase2 extends BaseClass {
 	public void facebooktest() {
 		driver.get("https://facebook.com/");
 	}
-	
+
 }

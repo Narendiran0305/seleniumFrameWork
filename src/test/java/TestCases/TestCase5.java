@@ -48,25 +48,20 @@ public class TestCase5 {
 	@Test
 	public void windowHandleTest() throws MalformedURLException, IOException {
 		List<WebElement> links = driver.findElements(By.tagName("a"));
-		for(WebElement link : links)
-		{
+		for (WebElement link : links) {
 			String url = link.getAttribute("href");
-			
-			if(!url.isEmpty())
-			{
-					HttpURLConnection connection = (HttpURLConnection)(new URL(url).openConnection());
-					connection.connect();
-					int responseCode = connection.getResponseCode();
-					if(responseCode >= 400)
-					{
-						System.out.println(url+" -> is broken");
-					}
-					else
-					{
-						System.out.println(url+" -> is working");
-					}
+
+			if (!url.isEmpty()) {
+				HttpURLConnection connection = (HttpURLConnection) (new URL(url).openConnection());
+				connection.connect();
+				int responseCode = connection.getResponseCode();
+				if (responseCode >= 400) {
+					System.out.println(url + " -> is broken");
+				} else {
+					System.out.println(url + " -> is working");
+				}
 			}
-			
+
 		}
 	}
 

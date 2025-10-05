@@ -51,27 +51,27 @@ public class TestCase8 {
 	}
 
 	@Test
-	public void windowHandleTest() throws InterruptedException, AWTException{
-		  
-		  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
-		  WebElement fileBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("form-file-label")));
-		  JavascriptExecutor js = (JavascriptExecutor) driver;
-		  js.executeScript("arguments[0].click();", fileBtn);
- 
-		  Robot robot = new Robot();
-		  robot.delay(1000);
+	public void windowHandleTest() throws InterruptedException, AWTException {
 
-		  StringSelection ss = new StringSelection("C:\\Users\\Narendiran\\Downloads\\Student enquiry.xlsx");
-		  Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
-		  
-		  robot.keyPress(KeyEvent.VK_CONTROL);
-		  robot.keyPress(KeyEvent.VK_V);
-		  robot.keyRelease(KeyEvent.VK_V);
-		  robot.keyRelease(KeyEvent.VK_CONTROL);
-		  Thread.sleep(3000);
-		  robot.keyPress(KeyEvent.VK_ENTER);
-		  robot.keyRelease(KeyEvent.VK_ENTER);
-		  
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement fileBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("form-file-label")));
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].click();", fileBtn);
+
+		Robot robot = new Robot();
+		robot.delay(1000);
+
+		StringSelection ss = new StringSelection("C:\\Users\\Narendiran\\Downloads\\Student enquiry.xlsx");
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
+
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
+		Thread.sleep(3000);
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
+
 	}
 
 }

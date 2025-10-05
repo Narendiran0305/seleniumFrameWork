@@ -24,7 +24,7 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 @Listeners(ListenerClass.class)
-public class TestCase9 {
+public class TestCase10 {
 
 	WebDriver driver;
 
@@ -32,10 +32,9 @@ public class TestCase9 {
 	public void launchbrower() {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--incognito");
-		options.addArguments("--headless");
 		driver = new ChromeDriver(options);
 
-		driver.get("https://demoqa.com/webtables");
+		driver.get("https://demoqa.com/broken");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
@@ -47,15 +46,23 @@ public class TestCase9 {
 	}
 
 	@Test
-	public void windowHandleTest() {
-		WebElement table = driver.findElement(By.xpath("//div[text()='Cierra']//ancestor::div[@class='rt-tbody']"));
+	public void windowHandleTest() throws MalformedURLException, IOException {
 
-		List<WebElement> rows = table.findElements(
-				By.xpath("//div[text()='Cierra']//ancestor::div[@class='rt-tbody']//child::div[@role='row']"));
+		List<WebElement> links = driver.findElements(By.tagName("a"));
 
-		for (WebElement element : rows) {
-			System.out.println(element.getText());
+		for (WebElement link : links) {
+			String url = link.getAttribute("href");
+			if (url!=null && !url.isEmpty()) {
+				HttpURLConnection connection = (HttpURLConnection) (new URL(url).openConnection());
+				connection.connect();
+				int responseCode = connection.getResponseCode();
+				if (responseCode >= 400) {
+					System.out.println(url + " -> is broken");
+				} else {
+					System.out.println(url + " -> is working");
+				}
+			}
 		}
-	}
 
+	}
 }

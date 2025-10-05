@@ -49,7 +49,7 @@ public class TestCase9 {
 	public void windowHandleTest(){
 		System.out.println(driver.getTitle());
 		
-	//	List<WebElement> elements = driver
+		List<WebElement> elements = driver
 				.findElements(By.xpath("//h3[contains(text(),'Hotels')]/ancestor::ul//h3"));
 		
 		for(WebElement element : elements)

@@ -1,41 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-04T17:03:52 IST" name="Suite" finished-at="2025-10-04T17:04:09 IST" duration-ms="17535">
+  <suite started-at="2025-10-05T15:55:49 IST" name="Suite" finished-at="2025-10-05T15:56:19 IST" duration-ms="30058">
     <groups>
     </groups>
-    <test started-at="2025-10-04T17:03:52 IST" name="FirefoxTest" finished-at="2025-10-04T17:04:05 IST" duration-ms="13538">
-      <class name="TestCases.TestCase8">
-        <test-method is-config="true" signature="launchbrower()[pri:0, instance:TestCases.TestCase8@24269709]" started-at="2025-10-04T17:03:52 IST" name="launchbrower" finished-at="2025-10-04T17:04:00 IST" duration-ms="8167" status="PASS">
+    <test started-at="2025-10-05T15:55:49 IST" name="ChromeTest" finished-at="2025-10-05T15:56:02 IST" duration-ms="13507">
+      <class name="TestCases.TestCase1">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TestCase1@7b2bbc3]" started-at="2025-10-05T15:55:49 IST" name="setUp" finished-at="2025-10-05T15:55:51 IST" duration-ms="2609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchbrower -->
-        <test-method signature="windowHandleTest()[pri:0, instance:TestCases.TestCase8@24269709]" started-at="2025-10-04T17:04:00 IST" name="windowHandleTest" finished-at="2025-10-04T17:04:05 IST" duration-ms="4895" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="googleTest()[pri:0, instance:TestCases.TestCase1@7b2bbc3]" started-at="2025-10-05T15:55:51 IST" name="googleTest" finished-at="2025-10-05T15:55:53 IST" duration-ms="1400" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- windowHandleTest -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestCases.TestCase8@24269709]" started-at="2025-10-04T17:04:05 IST" name="closebrowser" finished-at="2025-10-04T17:04:05 IST" duration-ms="332" status="PASS">
+        </test-method> <!-- googleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestCase1@7b2bbc3]" started-at="2025-10-05T15:55:53 IST" name="tearDown" finished-at="2025-10-05T15:55:53 IST" duration-ms="631" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- TestCases.TestCase8 -->
-    </test> <!-- FirefoxTest -->
-    <test started-at="2025-10-04T17:03:52 IST" name="ChromeTest" finished-at="2025-10-04T17:04:09 IST" duration-ms="17535">
-      <class name="TestCases.TestCase8">
-        <test-method is-config="true" signature="launchbrower()[pri:0, instance:TestCases.TestCase8@34e9fd99]" started-at="2025-10-04T17:03:52 IST" name="launchbrower" finished-at="2025-10-04T17:04:03 IST" duration-ms="11330" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TestCase1@7b2bbc3]" started-at="2025-10-05T15:55:53 IST" name="setUp" finished-at="2025-10-05T15:55:55 IST" duration-ms="1840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchbrower -->
-        <test-method signature="windowHandleTest()[pri:0, instance:TestCases.TestCase8@34e9fd99]" started-at="2025-10-04T17:04:03 IST" name="windowHandleTest" finished-at="2025-10-04T17:04:07 IST" duration-ms="4347" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="googleTest1()[pri:0, instance:TestCases.TestCase1@7b2bbc3]" started-at="2025-10-05T15:55:55 IST" name="googleTest1" finished-at="2025-10-05T15:55:57 IST" duration-ms="1617" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- windowHandleTest -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestCases.TestCase8@34e9fd99]" started-at="2025-10-04T17:04:07 IST" name="closebrowser" finished-at="2025-10-04T17:04:09 IST" duration-ms="1837" status="PASS">
+        </test-method> <!-- googleTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestCase1@7b2bbc3]" started-at="2025-10-05T15:55:57 IST" name="tearDown" finished-at="2025-10-05T15:55:57 IST" duration-ms="579" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- TestCases.TestCase8 -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TestCase1 -->
+      <class name="TestCases.TestCase2">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TestCase2@2d1ef81a]" started-at="2025-10-05T15:55:57 IST" name="setUp" finished-at="2025-10-05T15:55:59 IST" duration-ms="1938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="facebooktest()[pri:0, instance:TestCases.TestCase2@2d1ef81a]" started-at="2025-10-05T15:55:59 IST" name="facebooktest" finished-at="2025-10-05T15:56:02 IST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebooktest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestCase2@2d1ef81a]" started-at="2025-10-05T15:56:02 IST" name="tearDown" finished-at="2025-10-05T15:56:02 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TestCase2 -->
     </test> <!-- ChromeTest -->
+    <test started-at="2025-10-05T15:55:49 IST" name="FirefoxTest" finished-at="2025-10-05T15:56:19 IST" duration-ms="30058">
+      <class name="TestCases.TestCase1">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TestCase1@61322f9d]" started-at="2025-10-05T15:55:49 IST" name="setUp" finished-at="2025-10-05T15:55:58 IST" duration-ms="9205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="googleTest()[pri:0, instance:TestCases.TestCase1@61322f9d]" started-at="2025-10-05T15:55:58 IST" name="googleTest" finished-at="2025-10-05T15:56:00 IST" duration-ms="2432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestCase1@61322f9d]" started-at="2025-10-05T15:56:00 IST" name="tearDown" finished-at="2025-10-05T15:56:03 IST" duration-ms="2879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TestCase1@61322f9d]" started-at="2025-10-05T15:56:03 IST" name="setUp" finished-at="2025-10-05T15:56:08 IST" duration-ms="4471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="googleTest1()[pri:0, instance:TestCases.TestCase1@61322f9d]" started-at="2025-10-05T15:56:08 IST" name="googleTest1" finished-at="2025-10-05T15:56:09 IST" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestCase1@61322f9d]" started-at="2025-10-05T15:56:09 IST" name="tearDown" finished-at="2025-10-05T15:56:11 IST" duration-ms="1999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TestCase1 -->
+      <class name="TestCases.TestCase2">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TestCase2@6ad82709]" started-at="2025-10-05T15:56:11 IST" name="setUp" finished-at="2025-10-05T15:56:15 IST" duration-ms="4090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="facebooktest()[pri:0, instance:TestCases.TestCase2@6ad82709]" started-at="2025-10-05T15:56:15 IST" name="facebooktest" finished-at="2025-10-05T15:56:17 IST" duration-ms="1776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebooktest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestCase2@6ad82709]" started-at="2025-10-05T15:56:17 IST" name="tearDown" finished-at="2025-10-05T15:56:19 IST" duration-ms="1821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TestCase2 -->
+    </test> <!-- FirefoxTest -->
   </suite> <!-- Suite -->
 </testng-results>

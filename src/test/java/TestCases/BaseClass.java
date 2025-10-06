@@ -16,7 +16,7 @@ public class BaseClass {
 	protected WebDriver driver;
 	
 	ExtentReports extent = new ExtentReports();
-	ExtentSparkReporter spark = new ExtentSparkReporter("TestReport.html");
+	ExtentSparkReporter spark = new ExtentSparkReporter("target/extent-reports/extent-report.html");
 	ExtentTest test;
 	
 	@BeforeSuite
